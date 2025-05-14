@@ -33,7 +33,7 @@ def pergunta_5_fácil():
     print('b) ==')
     print('c) !=')
     print('d) ===')
-
+########################################################################################
 
 
 #Perguntas de Nível Fácil (FUNÇÃO)
@@ -474,7 +474,7 @@ def sair_menu():
 
 # opção para sair do menu aprender logica de progamação
 def sair_log():
-    op_sair = str(input('\n\nDeseja continuar com o menu Aprender lógica de programação ?[S/N]\n\n')).lower().strip()
+    op_sair = str(input('\n\nDeseja continuar com o menu Aprender conceitos de programação ?[S/N]\n\n')).lower().strip()
     if op_sair == "s":
         aprender_log()
     elif op_sair == "n":
@@ -494,7 +494,7 @@ def Print():
 def Input():
     print('\nO que é "Input" em Python ?\n\nA função "input()" em python é usada para receber dados do usuário.Quando o progama encontra um "input()", ele pausa e espera o usuário digitar algo e pressionar Enter\n\n')
     print('Sintaxe:\ninput(alguma_coisa)\n')
-    print('\n\nExemplo:\n\nnome = input("Digite seu nome: ")\nprint(f"Olá , {nome}")\n\nEsse comando vai mostrar "Olá, nome do usuário!"\n')
+    print('\n\nExemplo:\n\nnome = input("Digite seu nome: ")\nprint(f"Olá , {nome}")\n\nA saída será:\n\n "Olá, nome do usuário!"\n')
     
 # Aprender (For)
 def For():
@@ -506,7 +506,7 @@ def For():
 def While():
     print('\nO que é "While" em Python ?\n\nA função "While" em python é usada para repetir um bloco de código enquanto a condição for verdaderira.É usado quando não sabemos exatamente quantas vezes vamos repetir\n\n')
     print('Sintaxe:\nwhile condição: \n   bloco de código\n')
-    print('\nExemplo:\n\ncontador = 0\nwhile contador <= 10:\nprint(contador)\ncontador += 1\n\nA saída deste código será:\n\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10')
+    print('\nExemplo:\n\ncontador = 0\nwhile contador <= 10:\n    print(contador)\n contador += 1\n\nA saída deste código será:\n\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10')
 
 #Aprender (Função)
 def Func():
@@ -534,9 +534,9 @@ def Lista():
     print('O que são lista ?\n\n São coleções de valores.Elas permitem guardar vários dados em uma única variável.\n\nExemplo:\n\nfrutas = ["maça", "banana","laranja"]\n\nprint(frutas)\n\nA saída será:\n["maça", "banana , "laranja"]')
 
 
-#Aprender Lógica
+#Aprender Conceitos sobre programasão
 def aprender_log():
-    print(f'\n\n{nome},Seja bem vindo a página inicial de aprendizado de lógica de programação\nPara prosseguir escolha uma das opções de comandos para aprender listadas abaixo\n')
+    print(f'\n\n{nome},Seja bem vindo a página inicial de Conceitos sobre programação\nPara prosseguir escolha uma das opções de comandos para aprender listadas abaixo\n')
     print('1)Variáveis\n2)Operadores\n3)Estrutura Condicionais\n4)Listas \n \n \nOu se preferir, selecione 0 para voltar ao Menu principal \n')
     op_log = int(input('Digite o número referente a opção desejada:\n\n'))
     if op_log == 0:
