@@ -1,180 +1,117 @@
-#Perguntas e Alternativas de Nível Fácil (FUNÇÃO)
-def pergunta_1_fácil():
-    print('\n1) O que a função "print()" faz em python ?')
+#Perguntas de Nível Fácil (FUNÇÃO)
+def f1():
+    print('\nPrimeira Pergunta de Nível Fácil')
+    print('\n\n1) O que a função "print()" faz em python ?')
     print('a) Declara uma variável')
     print('b) Executa um loop')
     print('c) Exibe uma saída no console')
     print('d) Lê um arquivo\n')
-    
-def pergunta_2_fácil():
-    print('\n2) Qual é o tipo de dado retornado pela função "input()" ?')
+def f2():
+    print('\nSegunda Pergunta de Nível Fácil')
+    print('\n\n2) Qual é o tipo de dado retornado pela função "input()" ?')
     print('a) int')
     print('b) str')
     print('c) bool')
     print('d) float\n')
-
-def pergunta_3_fácil():
-    print('\n3) Como se declara uma variável em Python ?')
+def f3():
+    print('\nTerceira Pergunta de Nível Fácil')
+    print('\n\n3) Como se declara uma variável em Python ?')
     print('a) let x = 10')
     print('b) int x = 10')
     print('c) x = 10')
     print('d) var x = 10\n')
-
-def pergunta_4_fácil():
-    print('\n4) Qual das seguintes estruturas e´usada para repetir um bloco de código ?')
+def f4():
+    print('\nQuarta Pergunta de Nível Fácil')
+    print('\n\n4) Qual das seguintes estruturas e´usada para repetir um bloco de código ?')
     print('a) if ')
     print('b) for ')
     print('c) def')
     print('d) import\n')
-
-def pergunta_5_fácil():
-    print('\n5) Qual é o operador de igualdade em Python ?')
+def f5():
+    print('\nQuinta Pergunta de Nível Fácil')
+    print('\n\n5) Qual é o operador de igualdade em Python ?')
     print('a) =')
     print('b) ==')
     print('c) !=')
     print('d) ===')
-########################################################################################
-
-
-#Perguntas de Nível Fácil (FUNÇÃO)
-def f1():
-    print('\nPrimeira Pergunta de Nível Fácil')
-    pergunta_1_fácil()
-def f2():
-    print('\nSegunda Pergunta de Nível Fácil')
-    pergunta_2_fácil()
-def f3():
-    print('\nTerceira Pergunta de Nível Fácil')
-    pergunta_3_fácil()
-def f4():
-    print('\nQuarta Pergunta de Nível Fácil')
-    pergunta_4_fácil()
-def f5():
-    print('\nQuinta Pergunta de Nível Fácil')
-    pergunta_5_fácil()
     
-#Perguntas e Alternativas de Nível Médio (FUNÇÃO)
-def pergunta_1_médio():
-    print('\n1) Como se declara uma lista ?')
+#Perguntas de Nível Médio (FUNÇÃO)
+def m1():
+    print('Primeira Pergunta de Nível Médio')
+    print('\n\n1) Como se declara uma lista ?')
     print('a) []')
     print('b) {}')
     print('c) //')
     print('d) ==\n')
-    
-def pergunta_2_médio():
-    print('\n2) Como se define uma função em Python ?')
+def m2():
+    print('Segunda Pergunta de Nível Médio')
+    print('\n\n2) Como se define uma função em Python ?')
     print('a) function minha_funcao():')
     print('b) define minha_funcao():')
     print('c) def minha_funcao()')
     print('d) func minha_funcao():\n')
-
-def pergunta_3_médio():
-    print('\n3) O que faz o método .append() em uma lista ?')
+def m3():
+    print('Terceira Pergunta de Nível Médio')
+    print('\n\n3) O que faz o método .append() em uma lista ?')
     print('a) Remove um item')
     print('b) Adiciona um item ao final')
     print('c) Ordena a lista')
     print('d) Inverte a lista\n')
-
-def pergunta_4_médio():
-    print('\n4) O que será impresso em "print(10 % 3)" ?')
+def m4():
+    print('Quarta Pergunta de Nível Médio')
+    print('\n\n4) O que será impresso em "print(10 % 3)" ?')
     print('a) 1 ')
     print('b) 3 ')
     print('c) 0')
     print('d) 10\n')
-
-def pergunta_5_médio():
-    print('\n5) Qual a saída do código ?\n\nnome = "Python"\nprint(nome[0:3])\n')
+def m5():
+    print('Quinta Pergunta de Nível Médio')
+    print('\n\n5) Qual a saída do código ?\n\nnome = "Python"\nprint(nome[0:3])\n')
     print('a) Pyt')
     print('b) Python')
     print('c) py')
     print('d) ERRO\n')
-    
 
-
-
-#Perguntas de Nível Médio (FUNÇÃO)
-def m1():
-    print('Primeira Pergunta de Nível Médio')
-    pergunta_1_médio()
-def m2():
-    print('Segunda Pergunta de Nível Médio')
-    pergunta_2_médio()
-def m3():
-    print('Terceira Pergunta de Nível Médio')
-    pergunta_3_médio()
-def m4():
-    print('Quarta Pergunta de Nível Médio')
-    pergunta_4_médio()
-def m5():
-    print('Quinta Pergunta de Nível Médio')
-    pergunta_5_médio()
-
-
-#Perguntas e Alternativas de Nível Difícil (FUNÇÃO)
-
-def pergunta_1_difícil():
-    print('\n1) Qual o resultado da seguinte expressão em Python ? \n\na = [1,2,3]\nb = a\na += [4]\nprint(b)\n')
+#Perguntas de Nível Dificíl (FUNÇÃO)
+def d1():
+    print('Primeira Pergunta de Nível Dificíl')
+    print('\n\n1) Qual o resultado da seguinte expressão em Python ? \n\na = [1,2,3]\nb = a\na += [4]\nprint(b)\n')
     print('a) [ 1 , 2 , 3] ')
     print('b) [ 1 , 2]')
     print('c) [ 1 ]')
     print('d) [ 1 , 2 , 3 , 4] \n')
-    
-def pergunta_2_difícil():
-    print('\n2) Qual a diferença entre "is" e "==" em Python? Considere os exemplos abaixo  \n x = [1 , 2 , 3]\n y = [1 , 2 , 3]\n')
+def d2():
+    print('Segunda Pergunta de Nível Dificíl')
+    print('\n\n2) Qual a diferença entre "is" e "==" em Python? Considere os exemplos abaixo  \n x = [1 , 2 , 3]\n y = [1 , 2 , 3]\n')
     print('a) "x is y"  e "x == y" são ambos "True"')
     print('b) "x is y" é True, mas "x == y" é "False" ')
     print('c) "x is y" é "False",mas "x == y" é "True"')
     print('d) "x is y" e "x == y" são ambos "False"\n')
-
-def pergunta_3_difícil():
-    print('\n3) O que será impresso pelo código abaixo ?\n\ndef func(x, y=[]):\n   y.append(x)\n   return y\n\nprint(func(1))\nprint(func(2))\n')
+def d3():
+    print('Terceira Pergunta de Nível Dificíl')
+    print('\n\n3) O que será impresso pelo código abaixo ?\n\ndef func(x, y=[]):\n   y.append(x)\n   return y\n\nprint(func(1))\nprint(func(2))\n')
     print('a) [1] e [2]')
     print('b) [1] e [1,2]')
     print('c) [1] e [2,1]')
     print('d) [1] e  [1]\n')
-
-def pergunta_4_difícil():
-    print('\n4) Em Python, o que significa o operador "is" e qual a difereça em relação ao operador "==" ?\n')
+def d4():
+    print('Quarta Pergunta de Nível Dificíl')
+    print('\n\n4) Em Python, o que significa o operador "is" e qual a difereça em relação ao operador "==" ?\n')
     print('a) "is" compara valores , == compara identidade de objeto ')
     print('b) "is" e "==" são sinônimos ')
     print('c) "is" compara identidade de objeto , "==" compara valores')
     print('d) Ambos são usados apenas com tipos primitivos\n')
-
-def pergunta_5_difícil():
-    print('\n5) Qual é a saída do seguinte código ?\n\na = (1,2, [3,4])\na[2].append(5)\nprint(a)\n')
+def d5():
+    print('Quinta Pergunta de Nível Dificíl')
+    print('\n\n5) Qual é a saída do seguinte código ?\n\na = (1,2, [3,4])\na[2].append(5)\nprint(a)\n')
     print('a) (1, 2, [3,4])')
     print('b) (1, 2, [3, 4, 5])')
     print('c) Gera erro, pois tuplas são imutáveis')
     print('d) (1 , 2 , 3 , 4 ,5]')
 
-#Perguntas de Nível Dificíl (FUNÇÃO)
-def d1():
-    print('Primeira Pergunta de Nível Dificíl')
-    pergunta_1_difícil()
-def d2():
-    print('Segunda Pergunta de Nível Dificíl')
-    pergunta_2_difícil()
-def d3():
-    print('Terceira Pergunta de Nível Dificíl')
-    pergunta_3_difícil()
-def d4():
-    print('Quarta Pergunta de Nível Dificíl')
-    pergunta_4_difícil()
-def d5():
-    print('Quinta Pergunta de Nível Dificíl')
-    pergunta_5_difícil()
-
-
-
-
-
-
-
 #Variavéis Globais
 nome = ""
 idade = ""
-
-
 
 #Função de termos de uso    
 def termos():
@@ -259,7 +196,7 @@ def quiz():
     if dif_quiz == 1:
         f1()
         op_f1 = str(input('Alternativa: '))
-        if op_f1.lower() == "a":
+        if op_f1.lower() == "c":
             print('\nCorreto!\n')
             pontos += 1
         else:
@@ -268,7 +205,7 @@ def quiz():
             
         f2()
         op_f2 = str(input('Alternativa: '))
-        if op_f2.lower() == "a":
+        if op_f2.lower() == "b":
             print('\nCorreto!\n')
             pontos += 1
         else:
@@ -277,7 +214,7 @@ def quiz():
             
         f3()
         op_f3 = str(input('Alternativa: '))
-        if op_f3.lower() == "a":
+        if op_f3.lower() == "c":
             print('\nCorreto!\n')
             pontos += 1
         else:
@@ -286,7 +223,7 @@ def quiz():
             
         f4()
         op_f4 = str(input('Alternativa: '))
-        if op_f4.lower() == "a":
+        if op_f4.lower() == "b":
             print('\nCorreto!\n')
             pontos += 1
         else:
@@ -295,7 +232,7 @@ def quiz():
 
         f5()
         op_f5 = str(input('Alternativa: '))
-        if op_f5.lower() == "a":
+        if op_f5.lower() == "b":
             print('\nCorreto!\n')
             pontos += 1
         else:
@@ -319,7 +256,7 @@ def quiz():
             
         m2()
         op_m2 = str(input('Alternativa: '))
-        if op_m2.lower() == "a":
+        if op_m2.lower() == "c":
             print('\nCorreto!\n')
             pontos += 1
         else:
@@ -327,7 +264,7 @@ def quiz():
             
         m3()
         op_m3 = str(input('Alternativa: '))
-        if op_m3.lower() == "a":
+        if op_m3.lower() == "b":
             print('\nCorreto!\n')
             pontos += 1
         else:
@@ -359,7 +296,7 @@ def quiz():
         
         d1()
         op_d1 = str(input('Alternativa: '))
-        if op_d1.lower() == "a":
+        if op_d1.lower() == "d":
             print('\nCorreto!\n')
             pontos += 1
         else:
@@ -367,7 +304,7 @@ def quiz():
 
         d2()
         op_d2 = str(input('Alternativa: '))
-        if op_d2.lower() == "a":
+        if op_d2.lower() == "c":
             print('\nCorreto!\n')
             pontos += 1
         else:
@@ -375,7 +312,7 @@ def quiz():
 
         d3()
         op_d3 = str(input('Alternativa: '))
-        if op_d3.lower() == "a":
+        if op_d3.lower() == "b":
             print('\nCorreto!\n')
             pontos += 1
         else:
@@ -383,7 +320,7 @@ def quiz():
 
         d4()
         op_d4 = str(input('Alternativa: '))
-        if op_d4.lower() == "a":
+        if op_d4.lower() == "c":
             print('\nCorreto!\n')
             pontos += 1
         else:
@@ -391,7 +328,7 @@ def quiz():
 
         d5()
         op_d5 = str(input('Alternativa: '))
-        if op_d5.lower() == "a":
+        if op_d5.lower() == "b":
             print('\nCorreto!\n')
             pontos += 1
         else:
@@ -441,7 +378,7 @@ def aprender_py():
     while True:
         print(f'\n\n{nome},Seja bem vindo a página inicial de aprendizado de Python\nPara prosseguir escolha uma das opções de comandos para aprender listadas abaixo\n\n')
     
-        print('----------1)Print----------\n----------2)Input----------\n----------3)For------------\n----------4)While----------\n----------5)Def------------ \n \n \nOu se preferir, selecione 0 para voltar ao Menu principal \n')
+        print('----------1)Print----------\n----------2)Input----------\n----------3)For------------\n----------4)While----------\n----------5)Def------------\n--------6)Cibersegurança--------\n \n \nOu se preferir, selecione 0 para voltar ao Menu principal \n')
         op_py = int(input('Digite o número referente a opção desejada:\n'))
         
         if op_py == 0:
@@ -456,10 +393,16 @@ def aprender_py():
             While()
         elif op_py == 5:
             Func()
+        elif op_py == 6:
+            Ciber()
         else:
             print ('Digite uma opção válida!')
             aprender_py()
         sair_menu()
+
+#Aprender Cibersegurança
+def Ciber():
+    print('\nO que é Cibersegurança ?\n\nCibersegurança é o conjunto de práticas, tecnologias e processos usados para proteger sistemas, redes e dados digitais contra acessos não autorizados, ataques cibernéticos e danos. Seu principal objetivo é garantir a confidencialidade, integridade e disponibilidade das informações.\n\nEla envlove:\n\n---Segurança de redes\n\n---Proteção de dados\n\n---Segurança de sofwares e dispositivos\n\n---Prevenção contra malware, phishing e ataques hackers\n\n-Dicas para usar no dia a dia\n\n1-Use senha fortes únicas\n combine letras, números e símbolos\n Evite usar a mesma senha em vários sites\n Use um gerenciador de senhas para armazená-las com segurança.\n\n2-Ative a verificação em duas etapas\n Adiciona uma camada extra de proteção além da senha\n Use apps como Google Authenticator ou SMS para receber códigos.\n\n3-Cuidado com e-mails e mensagens suspeitas\n Desconfie de links e anexos de remetentes desconhecidos.\n Golpes de phishing tentem roubar seus dados se passando por empresas confiáveis.')
 
 #opção para sair do menu aprender Python    
 def sair_menu():
@@ -474,7 +417,7 @@ def sair_menu():
 
 # opção para sair do menu aprender logica de progamação
 def sair_log():
-    op_sair = str(input('\n\nDeseja continuar com o menu Aprender conceitos de programação ?[S/N]\n\n')).lower().strip()
+    op_sair = str(input('\n\nDeseja continuar com o menu Aprender lógica de programação ?[S/N]\n\n')).lower().strip()
     if op_sair == "s":
         aprender_log()
     elif op_sair == "n":
@@ -488,13 +431,13 @@ def sair_log():
 def Print():
     print('\nO que é "print" em Python ?\n\nA função "print()" em python é usada para exibir informações na tela.Ela imprime textos, números ou o resultado de expressões\n\n')
     print('Sintaxe:\nprint(alguma_coisa)\n')
-    print('\nExemplo:\n\nprint("Olá, mundo!")\n\nA saída deste comando será:\n "Olá, mundo!"\n\n')
+    print('\nExemplo:\n\nprint("Olá, mundo!")\n\nA saída deste comando será:\n"Olá, mundo!"\n\n')
 
 #Aprender (Input)
 def Input():
     print('\nO que é "Input" em Python ?\n\nA função "input()" em python é usada para receber dados do usuário.Quando o progama encontra um "input()", ele pausa e espera o usuário digitar algo e pressionar Enter\n\n')
     print('Sintaxe:\ninput(alguma_coisa)\n')
-    print('\n\nExemplo:\n\nnome = input("Digite seu nome: ")\nprint(f"Olá , {nome}")\n\nA saída será:\n\n "Olá, nome do usuário!"\n')
+    print('\n\nExemplo:\n\nnome = input("Digite seu nome: ")\nprint(f"Olá , {nome}")\n\nEsse comando vai mostrar "Olá, nome do usuário!"\n')
     
 # Aprender (For)
 def For():
@@ -506,7 +449,7 @@ def For():
 def While():
     print('\nO que é "While" em Python ?\n\nA função "While" em python é usada para repetir um bloco de código enquanto a condição for verdaderira.É usado quando não sabemos exatamente quantas vezes vamos repetir\n\n')
     print('Sintaxe:\nwhile condição: \n   bloco de código\n')
-    print('\nExemplo:\n\ncontador = 0\nwhile contador <= 10:\n    print(contador)\n contador += 1\n\nA saída deste código será:\n\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10')
+    print('\nExemplo:\n\ncontador = 0\nwhile contador <= 10:\nprint(contador)\ncontador += 1\n\nA saída deste código será:\n\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10')
 
 #Aprender (Função)
 def Func():
@@ -534,9 +477,9 @@ def Lista():
     print('O que são lista ?\n\n São coleções de valores.Elas permitem guardar vários dados em uma única variável.\n\nExemplo:\n\nfrutas = ["maça", "banana","laranja"]\n\nprint(frutas)\n\nA saída será:\n["maça", "banana , "laranja"]')
 
 
-#Aprender Conceitos sobre programasão
+#Aprender Lógica
 def aprender_log():
-    print(f'\n\n{nome},Seja bem vindo a página inicial de Conceitos sobre programação\nPara prosseguir escolha uma das opções de comandos para aprender listadas abaixo\n')
+    print(f'\n\n{nome},Seja bem vindo a página inicial de aprendizado de lógica de programação\nPara prosseguir escolha uma das opções de comandos para aprender listadas abaixo\n')
     print('1)Variáveis\n2)Operadores\n3)Estrutura Condicionais\n4)Listas \n \n \nOu se preferir, selecione 0 para voltar ao Menu principal \n')
     op_log = int(input('Digite o número referente a opção desejada:\n\n'))
     if op_log == 0:
