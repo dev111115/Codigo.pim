@@ -162,6 +162,7 @@ def menu():
         print('2 - Aprender Lógica')
         print('3 - Quiz')
         print('4 - Alterar Dados Pessoais')
+        print('5 - Aprender Cibersegurança')
         print('0 - Sair')
         
         op = int(input("Digite a opção desejada:\n\n"))
@@ -174,6 +175,8 @@ def menu():
             quiz()
         elif op == 4:
             userinfo()
+        elif op == 5:
+            Ciber()
         elif op == 0:
             exit()  # Encerra o programa
         else:
@@ -200,7 +203,7 @@ def quiz():
             print('\nCorreto!\n')
             pontos += 1
         else:
-            print('\nErrado! a resposta correta era a letra\n')
+            print('\nErrado! a resposta correta era a letra c\n')
 
             
         f2()
@@ -209,7 +212,7 @@ def quiz():
             print('\nCorreto!\n')
             pontos += 1
         else:
-            print('\nErrado! a resposta correta era a letra\n')
+            print('\nErrado! a resposta correta era a letra b\n')
 
             
         f3()
@@ -218,7 +221,7 @@ def quiz():
             print('\nCorreto!\n')
             pontos += 1
         else:
-            print('\nErrado! a resposta correta era a letra\n')
+            print('\nErrado! a resposta correta era a letra c\n')
             
             
         f4()
@@ -227,7 +230,7 @@ def quiz():
             print('\nCorreto!\n')
             pontos += 1
         else:
-            print('\nErrado! a resposta correta era a letra\n')
+            print('\nErrado! a resposta correta era a letra b\n')
             
 
         f5()
@@ -236,7 +239,7 @@ def quiz():
             print('\nCorreto!\n')
             pontos += 1
         else:
-            print('\nErrado! a resposta correta era a letra\n')
+            print('\nErrado! a resposta correta era a letra b\n')
 
 
 
@@ -252,7 +255,7 @@ def quiz():
             print('\nCorreto!\n')
             pontos += 1
         else:
-            print('\nErrado! a resposta correta era a letra\n')
+            print('\nErrado! a resposta correta era a letra a\n')
             
         m2()
         op_m2 = str(input('Alternativa: '))
@@ -260,7 +263,7 @@ def quiz():
             print('\nCorreto!\n')
             pontos += 1
         else:
-            print('\nErrado! a resposta correta era a letra\n')
+            print('\nErrado! a resposta correta era a letra c\n')
             
         m3()
         op_m3 = str(input('Alternativa: '))
@@ -268,7 +271,7 @@ def quiz():
             print('\nCorreto!\n')
             pontos += 1
         else:
-            print('\nErrado! a resposta correta era a letra\n')
+            print('\nErrado! a resposta correta era a letra b\n')
             
         m4()
         op_m4 = str(input('Alternativa: '))
@@ -276,7 +279,7 @@ def quiz():
             print('\nCorreto!\n')
             pontos += 1
         else:
-            print('\nErrado! a resposta correta era a letra\n')
+            print('\nErrado! a resposta correta era a letra a\n')
             
         m5()
         op_m5 = str(input('Alternativa: '))
@@ -284,7 +287,7 @@ def quiz():
             print('\nCorreto!\n')
             pontos += 1
         else:
-            print('\nErrado! a resposta correta era a letra\n')
+            print('\nErrado! a resposta correta era a letra a\n')
 
 
 
@@ -300,7 +303,7 @@ def quiz():
             print('\nCorreto!\n')
             pontos += 1
         else:
-            print('\nErrado! a resposta correta era a letra\n')
+            print('\nErrado! a resposta correta era a letra d\n')
 
         d2()
         op_d2 = str(input('Alternativa: '))
@@ -308,7 +311,7 @@ def quiz():
             print('\nCorreto!\n')
             pontos += 1
         else:
-            print('\nErrado! a resposta correta era a letra\n')
+            print('\nErrado! a resposta correta era a letra c\n')
 
         d3()
         op_d3 = str(input('Alternativa: '))
@@ -316,7 +319,7 @@ def quiz():
             print('\nCorreto!\n')
             pontos += 1
         else:
-            print('\nErrado! a resposta correta era a letra\n')
+            print('\nErrado! a resposta correta era a letra b\n')
 
         d4()
         op_d4 = str(input('Alternativa: '))
@@ -324,7 +327,7 @@ def quiz():
             print('\nCorreto!\n')
             pontos += 1
         else:
-            print('\nErrado! a resposta correta era a letra\n')
+            print('\nErrado! a resposta correta era a letra c\n')
 
         d5()
         op_d5 = str(input('Alternativa: '))
@@ -332,7 +335,7 @@ def quiz():
             print('\nCorreto!\n')
             pontos += 1
         else:
-            print('\nErrado! a resposta correta era a letra\n')
+            print('\nErrado! a resposta correta era a letra b\n')
 
 
         
@@ -378,7 +381,7 @@ def aprender_py():
     while True:
         print(f'\n\n{nome},Seja bem vindo a página inicial de aprendizado de Python\nPara prosseguir escolha uma das opções de comandos para aprender listadas abaixo\n\n')
     
-        print('----------1)Print----------\n----------2)Input----------\n----------3)For------------\n----------4)While----------\n----------5)Def------------\n--------6)Cibersegurança--------\n \n \nOu se preferir, selecione 0 para voltar ao Menu principal \n')
+        print('----------1)Print----------\n----------2)Input----------\n----------3)For------------\n----------4)While----------\n----------5)Def------------\n\n \n \nOu se preferir, selecione 0 para voltar ao Menu principal \n')
         op_py = int(input('Digite o número referente a opção desejada:\n'))
         
         if op_py == 0:
@@ -393,8 +396,6 @@ def aprender_py():
             While()
         elif op_py == 5:
             Func()
-        elif op_py == 6:
-            Ciber()
         else:
             print ('Digite uma opção válida!')
             aprender_py()
@@ -403,6 +404,7 @@ def aprender_py():
 #Aprender Cibersegurança
 def Ciber():
     print('\nO que é Cibersegurança ?\n\nCibersegurança é o conjunto de práticas, tecnologias e processos usados para proteger sistemas, redes e dados digitais contra acessos não autorizados, ataques cibernéticos e danos. Seu principal objetivo é garantir a confidencialidade, integridade e disponibilidade das informações.\n\nEla envlove:\n\n---Segurança de redes\n\n---Proteção de dados\n\n---Segurança de sofwares e dispositivos\n\n---Prevenção contra malware, phishing e ataques hackers\n\n-Dicas para usar no dia a dia\n\n1-Use senha fortes únicas\n combine letras, números e símbolos\n Evite usar a mesma senha em vários sites\n Use um gerenciador de senhas para armazená-las com segurança.\n\n2-Ative a verificação em duas etapas\n Adiciona uma camada extra de proteção além da senha\n Use apps como Google Authenticator ou SMS para receber códigos.\n\n3-Cuidado com e-mails e mensagens suspeitas\n Desconfie de links e anexos de remetentes desconhecidos.\n Golpes de phishing tentem roubar seus dados se passando por empresas confiáveis.')
+    
 
 #opção para sair do menu aprender Python    
 def sair_menu():
@@ -437,7 +439,7 @@ def Print():
 def Input():
     print('\nO que é "Input" em Python ?\n\nA função "input()" em python é usada para receber dados do usuário.Quando o progama encontra um "input()", ele pausa e espera o usuário digitar algo e pressionar Enter\n\n')
     print('Sintaxe:\ninput(alguma_coisa)\n')
-    print('\n\nExemplo:\n\nnome = input("Digite seu nome: ")\nprint(f"Olá , {nome}")\n\nEsse comando vai mostrar "Olá, nome do usuário!"\n')
+    print('\n\nExemplo:\n\nnome = input("Digite seu nome: ")\nprint(f"Olá , {nome}")\n\nA saída será: \n"Olá, nome do usuário!"\n')
     
 # Aprender (For)
 def For():
@@ -449,7 +451,7 @@ def For():
 def While():
     print('\nO que é "While" em Python ?\n\nA função "While" em python é usada para repetir um bloco de código enquanto a condição for verdaderira.É usado quando não sabemos exatamente quantas vezes vamos repetir\n\n')
     print('Sintaxe:\nwhile condição: \n   bloco de código\n')
-    print('\nExemplo:\n\ncontador = 0\nwhile contador <= 10:\nprint(contador)\ncontador += 1\n\nA saída deste código será:\n\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10')
+    print('\nExemplo:\n\ncontador = 0\nwhile contador <= 10:\n   print(contador)   \ncontador += 1\n\nA saída deste código será:\n\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10')
 
 #Aprender (Função)
 def Func():
@@ -505,4 +507,3 @@ def aprender_log():
    
 
 termos()
-
