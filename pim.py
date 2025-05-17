@@ -159,7 +159,7 @@ def menu():
         print('\n\nBem vindo', nome,'ao menu inicial')
         print('\nMenu:')
         print('1 - Aprender Python')
-        print('2 - Aprender Lógica')
+        print('2 - Aprender Conceitos de Python')
         print('3 - Quiz')
         print('4 - Alterar Dados Pessoais')
         print('5 - Aprender Cibersegurança')
@@ -469,7 +469,8 @@ def vari():
 def opera():
     print('O que é um Operador ?\n\nOperadores são símbolos que permitem fazer contas ou comparações .\n\n')
     print('Tipos de Operadores:\n\nAritméticos:\n\n+ : soma\n- : subtração\n* : multiplicação\n/ : divisão\n// : divisão inteira\n% : resto da divisão\n\nComparação:\n\n== : igualdade\n!= : diferente\n> : maior que\n< : menor que\n>= : maior ou igual\n<= : menor ou igual\n\nLógicos:\n\nand : e\nor : ou\nnot : não\n\n ')
-    print('Exemplos:\n\na = 10\nb = 5\nprint(a > b)\nprint(a == 10)\nprint(a > b and b < 3)\n\n  ')
+    print('Exemplos:\n\na = 10\nb = 5\nprint(a > b)\nprint(a == b)\nprint(a > b and b < 3)\n\nA saída será:\nTrue\nFalse\nFalse  ')
+    
 
 #Aprendr lógica (Estruturas condicionais)
 def cond():
