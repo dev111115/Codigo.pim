@@ -445,13 +445,13 @@ def Input():
 def For():
     print('\nO que é "for" em Python ?\n\nFor é uma função que repete um bloco de código num número determinado de vezes.É usado quando sabemos quantas vezes queremos repetir algo\n\n')
     print('Sintaxe:\nfor i in range(número de sequências):\n   print(i)\n')
-    print('\nExemplo:\n\nfor i in range(1,6)\n\nEsse comando vai mostrar uma sequência de 1 até 5 , sáida: \n\n1\n2\n3\n4\n5\n')
+    print('\nExemplo:\n\nfor i in range(1,6):\n   print(i)\n\nEsse comando vai mostrar uma sequência de 1 até 5 , sáida: \n\n1\n2\n3\n4\n5\n')
     
 # Aprender (While)
 def While():
     print('\nO que é "While" em Python ?\n\nA função "While" em python é usada para repetir um bloco de código enquanto a condição for verdaderira.É usado quando não sabemos exatamente quantas vezes vamos repetir\n\n')
     print('Sintaxe:\nwhile condição: \n   bloco de código\n')
-    print('\nExemplo:\n\ncontador = 0\nwhile contador <= 10:\n   print(contador)   \ncontador += 1\n\nA saída deste código será:\n\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10')
+    print('\nExemplo:\n\ncontador = 0\nwhile contador <= 10:\n   print(contador)   \n   contador += 1\n\nA saída deste código será:\n\n0\n1\n2\n3\n4\n5\n6\n7\n8\n9\n10')
 
 #Aprender (Função)
 def Func():
