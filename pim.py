@@ -419,14 +419,14 @@ def sair_menu():
 
 # opção para sair do menu aprender logica de progamação
 def sair_log():
-    op_sair = str(input('\n\nDeseja continuar com o menu Aprender lógica de programação ?[S/N]\n\n')).lower().strip()
+    op_sair = str(input('\n\nDeseja continuar com o menu Aprender Conceito de programação ?[S/N]\n\n')).lower().strip()
     if op_sair == "s":
         aprender_log()
     elif op_sair == "n":
         menu()
     else:
         print("Digite um valor válido!\n\n")
-        sair_menu()
+        sair_log()
 
         
 #Aprender (print)
