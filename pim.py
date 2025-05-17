@@ -474,7 +474,7 @@ def opera():
 
 #Aprendr lógica (Estruturas condicionais)
 def cond():
-    print('O que são Estruturas Condicionais ?\n\nServem para tomar decições.O progama segue um caminho dependendo da condição\n\nExemplo:\n\nidade = 17\n\nif >= 18:\n   print("Você é maior de idade")\nelse:\n   print("Você é menor de idade")')
+    print('O que são Estruturas Condicionais ?\n\nServem para tomar decições.O progama segue um caminho dependendo da condição\n\nExemplo:\n\nidade = 17\n\nif idade >= 18:\n   print("Você é maior de idade")\nelse:\n   print("Você é menor de idade")')
 
 def Lista():
     print('O que são lista ?\n\n São coleções de valores.Elas permitem guardar vários dados em uma única variável.\n\nExemplo:\n\nfrutas = ["maça", "banana","laranja"]\n\nprint(frutas)\n\nA saída será:\n["maça", "banana , "laranja"]')
