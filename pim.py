@@ -163,6 +163,7 @@ def menu():
         print('3 - Quiz')
         print('4 - Alterar Dados Pessoais')
         print('5 - Aprender Cibersegurança')
+        print('6 - Calcular média das notas')
         print('0 - Sair')
         
         op = int(input("Digite a opção desejada:\n\n"))
@@ -177,6 +178,8 @@ def menu():
             userinfo()
         elif op == 5:
             Ciber()
+        elif op == 6:
+            calc_media()
         elif op == 0:
             exit()  # Encerra o programa
         else:
@@ -499,7 +502,17 @@ def aprender_log():
         print ('Digite uma opção válida!')
         aprender_log()
     sair_log()
-    
+
+
+#Calcular média das notas
+def calc_media():
+  nota1 = int(input("Nota do quiz quiz de dificuldade fácil: "))
+  nota2 = int(input("Nota do quiz de dificuldade média: "))
+  nota3 = int(input("Nota do quiz de dificuldade difícil: "))
+  media = (nota1 + nota2 + nota3) / 3
+  print(f'A média de suas notas é {media:.2f}')
+  menu()
+
 
 
         
